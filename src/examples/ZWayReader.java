@@ -58,7 +58,7 @@ public class ZWayReader
     /**
      * Returns a JsonObject
      *
-     * @param path subdirectory of /ZWaveAPI/
+     * @param path subdirectory of http://yourIP:Port/ZAutomation/api/v1/
      * @return JsonObject from given path
      */
     static JsonObject getObjectFromZway(String path)
